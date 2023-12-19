@@ -4,7 +4,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import booksFantasyData from "../data/fantasy.json";
-import Button from "react-bootstrap/Button";
+import ButtonCard from "./buttonCard.jsx";
+
 function BooksFantasy() {
 	const category = booksFantasyData[0].category;
 	return (
@@ -26,7 +27,7 @@ function BooksFantasy() {
 							<Card.Body className="d-flex flex-column justify-content-between align-items-center">
 								<Card.Title>{book.title}</Card.Title>
 								<Card.Text>Prezzo: €{book.price}</Card.Text>
-								<Button variant="secondary">Add Cart</Button>
+								<ButtonCard />
 							</Card.Body>
 						</Card>
 					</Col>

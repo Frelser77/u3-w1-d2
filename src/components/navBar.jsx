@@ -5,10 +5,10 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function navBar() {
 	return (
-		<Navbar expand="lg" className="bg-secondary">
+		<Navbar expand="lg" variant="black" className="brown">
 			<Container>
 				<Navbar.Brand href="index.html">
-					<img src="assets/imgs/logo.jpg" alt="logo" style={{ width: "80px", height: "80px" }} />
+					<img src="assets/imgs/logo3.png" alt="logo" style={{ width: "120px", height: "75px" }} />
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
