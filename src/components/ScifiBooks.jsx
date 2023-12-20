@@ -1,8 +1,5 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import booksScifiData from "../data/scifi.json";
 import ButtonCard from "./buttonCard.jsx";
 function BooksScifi() {

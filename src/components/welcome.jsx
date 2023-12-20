@@ -7,7 +7,7 @@ function AlertClose() {
 
 	return (
 		<>
-			<Alert show={show} variant="success">
+			<Alert show={show} variant="success" className="mt-2">
 				<Alert.Heading>Welcome in our shop</Alert.Heading>
 				<p>Buy more books for more points and rewords!</p>
 				<hr />

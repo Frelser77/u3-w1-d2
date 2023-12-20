@@ -1,8 +1,5 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
+import { Card, Col, Container, Row } from "react-bootstrap";
 import booksHistoryData from "../data/history.json";
 import ButtonCard from "./buttonCard";
 function BooksHistory() {

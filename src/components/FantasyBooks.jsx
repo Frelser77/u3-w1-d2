@@ -1,10 +1,8 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
-import Container from "react-bootstrap/Container";
+
 import booksFantasyData from "../data/fantasy.json";
 import ButtonCard from "./buttonCard.jsx";
+import { Card, Col, Container, Row } from "react-bootstrap";
 
 function BooksFantasy() {
 	const category = booksFantasyData[0].category;
